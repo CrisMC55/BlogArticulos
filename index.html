@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+</head>
+<body>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+        ::-webkit-scrollbar {
+            display:none;
+        }
+
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 100px;
+            margin:0px;
+            display:flex;
+            justify-content: center;
+        }
+
+        h2{
+            font-family: 'Bebas Neue';
+        }
+
+        p{
+            font-family: 'Montserrat';
+        }
+
+        h6{
+            font-family: 'Montserrat';
+            margin: 0px 0px 0px 20px;
+        }
+
+        .quote{
+            font-family: 'Bebas Neue';
+            font-style: italic;
+            padding: 5%;
+        }
+        
+        .latestPost{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .latestPost img{
+            width: 50%;
+            height: 50%;
+            border-radius: 20px;
+        }
+
+        .infoPost{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: 0px 0px 0px 20px;
+        }
+
+        .tags{
+            width: 100%;
+            display: flex;
+            padding: 5px;
+            margin: 20px 0px 0px 0px;
+            background-color: rgb(255, 255, 223);
+        }
+
+        article{
+            margin:10% 10% 10% 10%;
+        }
+
+        .comentario{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            border-top: 1px solid black;
+            padding-top: 5%;
+
+        }
+
+        label{
+            font-family: 'Montserrat';
+        }
+
+        input{
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 2%;
+        }
+
+        textarea{
+            border: 1px solid black;
+            border-radius: 20px;
+            padding: 2%;
+        }
+
+    </style>
+
+    <h1>BLOG</h1>
+    <h2>Latest post</h2>
+    <div class="latestPost">
+        <img src="images/imagen1.jpg" alt="">
+        <div class="infoPost">
+            <h2> About @Birdee</h2>
+            <p>Birdee is a name chosen to represent her photography as a symbol of freedom. Freedom for self discovery and empowerment through photography. </p>
+            <div class="tags">
+                <h6>#photography</h4>
+                <h6>#photography</h4>
+                <h6>#photography</h4>
+                <h6>#photography</h4>
+            </div>
+        </div>
+    </div>
+
+    <article>
+        <p>Since 2014, Jamie Johnson (Birdee) has been capturing the female form through her photography. In her work she examines themes of femininity, strength, and grace, as well as exploring the healing element of water. Her journey began with self portraiture as a means of embodiment and empowerment, and has since shared that same experience with others through immersive portrait sessions and fine art imagery. Starting with self-portraits as a means of personal embodiment and empowerment, she has extended this intimate experience to others through immersive portrait sessions and the creation of fine art imagery.</p>
+        <p class="quote">"I discovered photography through self portraiture as a means of embodiment. Every body is a unique form of expression and deserves to be celebrated in a beautiful way. Through this, my art is a medium for reflection, transformation, and empowerment."</p>
+        <p>Birdee's artistic journey goes beyond mere visual representation. Rather than merely portraying the physical aspect, her goal is to encapsulate the essence and unique history of each woman she photographs. Particularly captivating is her fascination with water, which she skillfully employs as a symbolic element of healing, portraying each image as a narrative of renewal and metamorphosis.</p>
+        <p>What sets Birdee apart is not just her photographic skill but her collaborative approach that challenges conventional norms. Her images convey a tangible sense of strength and grace, turning each session into a shared exploration of identity. The resulting body of work is a testament to the diversity and beauty intrinsic to the female experience, challenging preconceptions and capturing the very essence of womanhood in all its complexity.</p>
+    </article>
+
+    <div class="comentario">
+        <h2>COMMENT</h2>
+        <form action="">
+            <label for="user_name">Name</label><br>
+            <input type="text" name="user_name" id="">
+            <br>
+            <label for="user_comment">Your comment</label><br>
+            <textarea rows="10" cols="50" name="user_comment" id=""></textarea>
+        </form>
+    </div>
+
+    
+</body>
+</html>
